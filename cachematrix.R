@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## The function creates and empty object to later store the inverse matrix. It also defines several "behavior-function" such as set, get, setinverse and getinverse, that will be used in the next function
 
 makeCacheMatrix <- function(x = matrix()) {
   ## Creating an empty object to store the inverse of matrix
@@ -33,6 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## The function first checks, whether any inverse matrix has already been chaced. If yes — returns it; if not — calculates a new one and stores it. 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
